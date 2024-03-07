@@ -1,5 +1,5 @@
 # Plex-Media-Import-to-HTML
-Export your Plex Library as an interactive HTML page to save as a backup or for others to browse.<br>
+Export your Plex Library as an HTML page to save as a backup or for others to browse.<br>
 
 # Summary
 Plex Export allows you to produce an HTML page with information on the media contained within your Plex library.<br>
