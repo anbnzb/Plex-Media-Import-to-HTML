@@ -15,7 +15,7 @@ The script gives you the option to print a PDF page, which is a copy of your htm
 2. Install wkhtmltopdf. During installation, ensure that the wkhtmltopdf executable is added to the system PATH.<br>
 3. Download the Script: Import.py<br>
 4. Open the script in a text editor (like Notepad or VS Code) so you can update the wkhtmltopdf_path variable<br>
-   with the correct path to the wkhtmltopdf executable on their system. Usually you can find wkhtmltopdf at<br>
+   with the correct path to the wkhtmltopdf executable on your system. Usually you can find wkhtmltopdf at<br>
    "C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"<br>
    Find this line in the script and update:<br>
    wkhtmltopdf_path = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'  # Update this path<br>
