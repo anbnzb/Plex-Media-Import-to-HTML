@@ -23,12 +23,15 @@ The script gives you the option to print a PDF page, a copy of your html page, t
 5. (PLEX Media Import to HTML does not have to be run on the system containing Plex Media Server)<br>
 6. In your preferred shell/terminal enter the following command: python import.py<br>
 7. Enter Plex Ip address, Plex token, location to save the html, whether you want a pdf.<br>
-8. Page Size - I set page size at 1000mm long and 400mm wide. If you have thousands of media items
+8. Page Size - I set page size at 1000mm long and 400mm wide. If you have thousands of media items you can<br>
+   change these values to your preference. Open the script to the line:<br>
+   command = f'"{wkhtmltopdf_path}" --page-height 1000 --page-width 400 "{html_file_path}" "{pdf_file_path}" '<br>
+   Change the page values as required then save the script as import.py <br>
 
 # Notes
 
 -The script was built on windows 11 using edge browser and command prompt.<br>
 -Delete import.py if you upload PLEX Media Import to HTML to any public location<br>
 -If your Plex Server is running in Home mode, we need to authenticate via a token<br>
--To get a valid token for your system, look here: https://support.plex.tv/hc/en-us/articles/204059436-Finding-your-account-token-X-Plex-Token<br>
+-To get a valid token for your plex system, look here: https://support.plex.tv/hc/en-us/articles/204059436-Finding-your-account-token-X-Plex-Token<br>
  
